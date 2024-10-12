@@ -12,7 +12,7 @@ setup(
         'scikit-learn',
         'roma',
         'gradio',
-        'matplotlib=',
+        'matplotlib',
         'tqdm',
         'opencv-python',
         'scipy',
