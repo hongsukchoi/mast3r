@@ -24,7 +24,7 @@ setup(
     ],
     extras_require={
         'all': [
-            'dust3r @ git+https://github.com/naver/dust3r.git'
+            'dust3r @ git+https://github.com/hongsukchoi/dust3r.git'
         ],
     },
 )
