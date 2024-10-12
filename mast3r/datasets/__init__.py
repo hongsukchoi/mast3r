@@ -3,7 +3,7 @@
 
 from .base.mast3r_base_stereo_view_dataset import MASt3RBaseStereoViewDataset
 
-import mast3r.utils.path_to_dust3r  # noqa
+# import mast3r.utils.path_to_dust3r  # noqa
 from dust3r.datasets.arkitscenes import ARKitScenes as DUSt3R_ARKitScenes  # noqa
 from dust3r.datasets.blendedmvs import BlendedMVS as DUSt3R_BlendedMVS  # noqa
 from dust3r.datasets.co3d import Co3d as DUSt3R_Co3d  # noqa

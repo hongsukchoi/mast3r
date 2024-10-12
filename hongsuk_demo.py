@@ -15,7 +15,7 @@ from mast3r.demo import get_args_parser, main_demo
 from mast3r.model import AsymmetricMASt3R
 from mast3r.utils.misc import hash_md5
 
-import mast3r.utils.path_to_dust3r  # noqa
+# import mast3r.utils.path_to_dust3r  # noqa
 from dust3r.demo import set_print_with_timestamp
 
 import matplotlib.pyplot as pl

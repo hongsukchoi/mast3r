@@ -9,7 +9,7 @@ import torch.nn as nn
 import numpy as np
 from sklearn.metrics import average_precision_score
 
-import mast3r.utils.path_to_dust3r  # noqa
+# import mast3r.utils.path_to_dust3r  # noqa
 from dust3r.losses import BaseCriterion, Criterion, MultiLoss, Sum, ConfLoss
 from dust3r.losses import Regr3D as Regr3D_dust3r
 from dust3r.utils.geometry import (geotrf, inv, normalize_pointcloud)

@@ -19,7 +19,7 @@ import shutil
 from mast3r.cloud_opt.sparse_ga import sparse_global_alignment
 from mast3r.cloud_opt.tsdf_optimizer import TSDFPostProcess
 
-import mast3r.utils.path_to_dust3r  # noqa
+# import mast3r.utils.path_to_dust3r  # noqa
 from dust3r.image_pairs import make_pairs
 from dust3r.utils.image import load_images
 from dust3r.utils.device import to_numpy

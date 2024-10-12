@@ -22,7 +22,7 @@ from mast3r.utils.collate import cat_collate, cat_collate_fn_map
 from mast3r.utils.misc import mkdir_for
 from mast3r.datasets.utils.cropping import crop_to_homography
 
-import mast3r.utils.path_to_dust3r  # noqa
+# import mast3r.utils.path_to_dust3r  # noqa
 from dust3r.inference import inference, loss_of_one_batch
 from dust3r.utils.geometry import geotrf, colmap_to_opencv_intrinsics, opencv_to_colmap_intrinsics
 from dust3r.datasets.utils.transforms import ImgNorm
