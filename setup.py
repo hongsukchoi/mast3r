@@ -11,7 +11,7 @@ setup(
         'torchvision==0.15.2',
         'scikit-learn',
         'roma',
-        'gradio',
+        'gradio==4.44.1',
         'matplotlib',
         'tqdm',
         'opencv-python',
@@ -24,7 +24,7 @@ setup(
     ],
     extras_require={
         'all': [
-            
+            'dust3r @ git+https://github.com/naver/dust3r.git'
         ],
     },
 )
